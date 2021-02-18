@@ -13,8 +13,8 @@ if __name__ == '__main__':
 
 
     #########################
-    # 检测两张图片中 最大人脸 进行人脸比对，返回包含分数json ，要求图片不能大于200 k .
-    # detect the largest face in the picture  for face verification , then return the json string with score of face similarity , each picture is supposed to be smaller than 200k .
+    # 检测两张图片中 最大人脸 进行人脸比对，返回包含分数json ，要求图片不能大于200 k . 注：微信转发可基本无损压缩图片大小
+    # detect the largest face in the picture  for face verification , then return the json string with score of face similarity , each picture is supposed to be smaller than 200k . NOTE: a wechat forward action can compress the picture with negligible loss
     #########################
 
     url = 'http://zonetech.natapp1.cc/1vs1'
